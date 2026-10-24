@@ -1,0 +1,13 @@
+# Speech recognition
+faster-whisper>=1.1.0
+av>=15,<19           # PyAV 19 removed an option faster-whisper uses (also patched in code)
+
+# Translation (NLLB-200 via CTranslate2)
+ctranslate2>=4.5
+transformers>=4.40,<5
+sentencepiece
+torch                # only used once, to convert the translation model
+
+# App
+gradio>=4.44,<6
+tqdm
