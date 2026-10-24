@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="voXtext: offline video transcription and translation">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#3730a3"/>
+      <stop offset="1" stop-color="#6d28d9"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#a5b4fc"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <g opacity="0.08" fill="#fff">
+    <circle cx="1080" cy="40" r="140"/>
+    <circle cx="90" cy="330" r="110"/>
+  </g>
+
+  <!-- waveform -->
+  <g fill="url(#wave)" transform="translate(90 132)">
+    <rect x="0"   y="38" width="12" height="20" rx="6"/>
+    <rect x="22"  y="22" width="12" height="52" rx="6"/>
+    <rect x="44"  y="6"  width="12" height="84" rx="6"/>
+    <rect x="66"  y="26" width="12" height="44" rx="6"/>
+    <rect x="88"  y="0"  width="12" height="96" rx="6"/>
+    <rect x="110" y="18" width="12" height="60" rx="6"/>
+    <rect x="132" y="32" width="12" height="32" rx="6"/>
+  </g>
+  <!-- arrow -->
+  <path d="M262 180 h52 m-16 -16 l16 16 l-16 16" stroke="#c7d2fe" stroke-width="7" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- subtitle cards -->
+  <g font-family="Segoe UI, Malgun Gothic, Apple SD Gothic Neo, Noto Sans KR, Noto Sans CJK KR, Helvetica, Arial, sans-serif" font-size="22" font-weight="600">
+    <rect x="340" y="120" width="210" height="50" rx="12" fill="#ffffff" fill-opacity="0.95"/>
+    <text x="445" y="153" text-anchor="middle" fill="#312e81">안녕하세요</text>
+    <rect x="340" y="186" width="210" height="50" rx="12" fill="#ffffff" fill-opacity="0.22"/>
+    <text x="445" y="219" text-anchor="middle" fill="#ffffff">Hello · Hola · Bonjour</text>
+  </g>
+
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="590" y="168" font-size="60" font-weight="800" fill="#ffffff">voXtext</text>
+    <text x="592" y="212" font-size="23" fill="#e0e7ff">Transcribe &amp; translate videos in 100+ languages</text>
+    <text x="592" y="248" font-size="19" fill="#c4b5fd">100% offline · Whisper + NLLB-200 · Free &amp; open source</text>
+  </g>
+</svg>
