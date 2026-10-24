@@ -90,8 +90,8 @@ Your browser opens at **http://127.0.0.1:7860**. That address only exists on you
 ### Web app
 
 1. **Add your video.** Upload it, or use the *File / folder path* tab for very large files and whole folders (nothing gets copied, and subtitles are saved next to the originals).
-2. ** Spoken language:** pick the language of the video, or leave it on *Auto-detect*.
-3. ** Translate to:** pick the language you want, or *No translation*.
+2. **Spoken language:** pick the language of the video, or leave it on *Auto-detect*.
+3. **Translate to:** pick the language you want, or *No translation*.
 4. **Output files:** choose any of `txt`, `timestamps`, `srt`, `vtt` and `bilingual`.
 5. Press **▶ Start**, then download the results or read them in the preview tabs.
 
